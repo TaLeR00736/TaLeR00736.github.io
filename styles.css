@@ -1,0 +1,53 @@
+.FirstHeader {
+  font-family: 'Arial' ;
+}
+.CreateBorder {
+    border-style: solid ;
+    border-width: 1px;
+    border-color:gray;
+}
+.CreateAnotherBorder {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.CreateAnotherBorder2 {
+    border: solid gray;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+}
+.SetBackground1 {
+    background-color: #f8f9fa;
+}
+.SetBackground2 {
+    background-color: #cfe3ff;
+}
+.ShowHideInfo1 .ShowHideInfo2 {
+    display: block;
+    width: 10em;
+    width: fit-content;
+    outline-style: none;
+}
+.ShowHideInfo2 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+.ShowHideInfo2:hover {
+    text-decoration: underline;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+.Buttons {
+    text-decoration: none;
+}
+.Buttons:hover {
+    text-decoration: underline;
+}
+.Buttons:active {
+    text-decoration-color: green ;
+    color: green !important;
+}
